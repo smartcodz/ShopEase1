@@ -1,0 +1,423 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Demo User",
+      "email": "demo@shopease.test",
+      "password": "demo1234"
+    },
+    {
+      "name": "kosi",
+      "email": "donvictor511@gmail.com",
+      "password": "111111",
+      "id": 2
+    },
+    {
+      "name": "Victor",
+      "email": "victorpro7891@gmail.com",
+      "password": "222222",
+      "id": 3
+    }
+  ],
+  "products": [
+    {
+      "name": "Infinix note Edge",
+      "price": 129.99,
+      "category": "Electronics",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAgEQnxRAf80w3UvQMpzdppD3VCgHVR2P2RLQbc2TfVA&s=10",
+      "description": "Over-ear headphones with deep bass and active noise cancelling. Up to 30 hours of battery life on a single charge.",
+      "rating": 4.6,
+      "stock": 21,
+      "id": 1
+    },
+    {
+      "name": "collage bag",
+      "price": 89.99,
+      "category": "Fashion",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmqP1YylS03ZyVRZL4LhuFJCyDgoKFVZSFZOdtcowL2Q&s=10",
+      "description": "The most beautiful bag in the word, get easy and get cheap here💯🔟",
+      "rating": 4.3,
+      "stock": 40,
+      "id": 2
+    },
+    {
+      "name": "Portable Bluetooth Speaker",
+      "price": 49.99,
+      "category": "Electronics",
+      "image": "https://www-konga-com-res.cloudinary.com/image/upload/f_auto,q_auto,w_800,c_limit/media/catalog/product/T/J/4841_1787926677.jpg",
+      "description": "Pocket-sized speaker with clear sound and a splash-proof body. Plays for 12 hours without a charge.",
+      "rating": 4.4,
+      "stock": 58,
+      "id": 3
+    },
+    {
+      "name": "Laptop",
+      "price": 149,
+      "category": "Electronics",
+      "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTpznPyh6rBzWTCAT6YqCPlRZ7KmWvWyBR3Kl06QFtqqGosrGUPnwzNglSOHFoerVZhUzOSvnGZrSBCy0Rzw5cq33kjnX8FAKwLVoCKZYwnN1GSxe-APzJB&usqp=CAc",
+      "description": "Records sharp 4K video with steady image stabilization. Comes with a waterproof case and mounting kit.",
+      "rating": 4.5,
+      "stock": 15,
+      "id": 4
+    },
+    {
+      "name": "Jeans",
+      "price": 79.5,
+      "category": "Electronics",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoe5hNBeR3jrsbKf57DZUusTk81t3n75SemYMVOAxmUw&s=10",
+      "description": "Compact keyboard with satisfying tactile switches and soft white backlight. Perfect for coding and gaming.",
+      "rating": 4.7,
+      "stock": 32,
+      "id": 5
+    },
+    {
+      "name": "Monitor",
+      "price": 74,
+      "category": "Electronics",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxMFoAJWM4PWPIge1xesQ5-Z_fSD3JL6pOzESV2x-bOQ&s=10",
+      "description": "A timeless medium-wash jacket made from sturdy cotton denim. Easy to layer through every season.",
+      "rating": 4.4,
+      "stock": 28,
+      "id": 6
+    },
+    {
+      "name": "Shoes",
+      "price": 95,
+      "category": "Fashion",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuDK1ams2Rul5XnHvZXsA5RnBIEB1GJUWk4F-UcRGA3A&s=10",
+      "description": "A slim bag in soft genuine leather with an adjustable strap. Fits your phone, wallet, and keys.",
+      "rating": 4.6,
+      "stock": 18,
+      "id": 7
+    },
+    {
+      "name": "Books",
+      "price": 55,
+      "category": "Fashion",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjB6M9TndLyIXVRGTHq7eYK_sqswdfWM4aFT5YDhrsbw&s=10",
+      "description": "Lightweight everyday sneakers with a cushioned insole. Easy to style with almost any outfit.",
+      "rating": 4.2,
+      "stock": 60,
+      "id": 8
+    },
+    {
+      "id": 9,
+      "name": "Merino Wool Scarf",
+      "price": 38,
+      "category": "Fashion",
+      "image": "https://picsum.photos/seed/woolscarf/600/600",
+      "description": "A soft, warm scarf that does not itch. Long enough to wrap twice on cold days.",
+      "rating": 4.5,
+      "stock": 35
+    },
+    {
+      "id": 10,
+      "name": "Aviator Sunglasses",
+      "price": 62.5,
+      "category": "Fashion",
+      "image": "https://picsum.photos/seed/sunglasses/600/600",
+      "description": "Lightweight metal frames with polarized lenses. Blocks glare and offers full UV protection.",
+      "rating": 4.3,
+      "stock": 44
+    },
+    {
+      "id": 11,
+      "name": "Ceramic Pour-Over Coffee Set",
+      "price": 42,
+      "category": "Home",
+      "image": "https://picsum.photos/seed/coffeeset/600/600",
+      "description": "A handmade-style dripper and carafe for a clean, smooth cup. Makes up to four cups at a time.",
+      "rating": 4.5,
+      "stock": 22
+    },
+    {
+      "id": 12,
+      "name": "Linen Throw Blanket",
+      "price": 59,
+      "category": "Home",
+      "image": "https://picsum.photos/seed/throwblanket/600/600",
+      "description": "A breathable washed-linen blanket with a relaxed texture. Gets softer with every wash.",
+      "rating": 4.7,
+      "stock": 30
+    },
+    {
+      "id": 13,
+      "name": "Minimalist Desk Lamp",
+      "price": 36.99,
+      "category": "Home",
+      "image": "https://picsum.photos/seed/desklamp/600/600",
+      "description": "An adjustable LED lamp with three brightness levels. Gentle on the eyes during long study sessions.",
+      "rating": 4.4,
+      "stock": 47
+    },
+    {
+      "id": 14,
+      "name": "Scented Soy Candle Trio",
+      "price": 28,
+      "category": "Home",
+      "image": "https://picsum.photos/seed/soycandles/600/600",
+      "description": "Three hand-poured candles in lavender, vanilla, and cedar. Each burns cleanly for about 30 hours.",
+      "rating": 4.6,
+      "stock": 52
+    },
+    {
+      "id": 15,
+      "name": "Bamboo Cutting Board",
+      "price": 24.5,
+      "category": "Home",
+      "image": "https://picsum.photos/seed/cuttingboard/600/600",
+      "description": "A sturdy, knife-friendly board with a juice groove. Naturally antibacterial and easy to clean.",
+      "rating": 4.3,
+      "stock": 66
+    },
+    {
+      "id": 16,
+      "name": "Hydrating Face Serum",
+      "price": 34,
+      "category": "Beauty",
+      "image": "https://picsum.photos/seed/faceserum/600/600",
+      "description": "A lightweight serum with hyaluronic acid for all-day moisture. Absorbs fast and leaves no sticky feeling.",
+      "rating": 4.6,
+      "stock": 41
+    },
+    {
+      "id": 17,
+      "name": "Vitamin C Moisturizer",
+      "price": 29.99,
+      "category": "Beauty",
+      "image": "https://picsum.photos/seed/moisturizer/600/600",
+      "description": "A daily cream that brightens dull skin and keeps it soft. Suitable for most skin types.",
+      "rating": 4.4,
+      "stock": 55
+    },
+    {
+      "name": "Frezer",
+      "price": 26,
+      "category": "Electronics",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrDHlysF8_f5GI90HzNvlbVmy4XA0vJcZrlMdH9fHv4g&s=10",
+      "description": "this is one of the best frezer in the world",
+      "rating": 5,
+      "stock": 5,
+      "id": 18
+    },
+    {
+      "id": 19,
+      "name": "Argan Oil Hair Treatment",
+      "price": 22.5,
+      "category": "Beauty",
+      "image": "https://picsum.photos/seed/arganoil/600/600",
+      "description": "A nourishing oil that tames frizz and adds shine. A few drops are enough for a full head of hair.",
+      "rating": 4.5,
+      "stock": 48
+    },
+    {
+      "id": 20,
+      "name": "Rose Clay Face Mask",
+      "price": 19.99,
+      "category": "Beauty",
+      "image": "https://picsum.photos/seed/claymask/600/600",
+      "description": "A gentle clay mask that clears pores without over-drying. Use once or twice a week for fresh skin.",
+      "rating": 4.1,
+      "stock": 63
+    },
+    {
+      "name": "china Orange",
+      "price": 25,
+      "category": "Beauty",
+      "image": "https://t3.ftcdn.net/jpg/02/57/53/72/360_F_257537280_d3flCSzzTK9MoW8tofwCQjXwg3IpkgfD.jpg",
+      "description": "This is a picture of a china orange very sweet, get five and get one free",
+      "rating": 4.9,
+      "stock": 50,
+      "id": 21
+    },
+    {
+      "name": "laptop",
+      "price": 200,
+      "category": "Electronics",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM8xbInQkJQLS9p1-aPkSStDgVISZo7E0GzR7vE6CxRA&s=10",
+      "description": "this is  my a laptop",
+      "rating": 4,
+      "stock": 4,
+      "id": 22
+    }
+  ],
+  "orders": [
+    {
+      "userId": 3,
+      "lines": [
+        {
+          "productId": 2,
+          "name": "collage bag",
+          "unitPrice": 89.99,
+          "quantity": 3
+        }
+      ],
+      "total": 269.97,
+      "shipping": {
+        "fullName": "Victor",
+        "address": "19 okundia",
+        "city": "benin city",
+        "phone": "7071520394"
+      },
+      "status": "placed",
+      "createdAt": "2026-10-18T01:32:07.560Z",
+      "id": 1
+    },
+    {
+      "userId": 3,
+      "lines": [
+        {
+          "productId": 4,
+          "name": "Laptop",
+          "unitPrice": 149,
+          "quantity": 1
+        }
+      ],
+      "total": 149,
+      "shipping": {
+        "fullName": "Victor",
+        "address": "19 okundia",
+        "city": "benin city",
+        "phone": "07071520394"
+      },
+      "status": "placed",
+      "createdAt": "2026-10-18T18:08:51.354Z",
+      "id": 2
+    },
+    {
+      "userId": 3,
+      "lines": [
+        {
+          "productId": 6,
+          "name": "Monitor",
+          "unitPrice": 74,
+          "quantity": 1
+        },
+        {
+          "productId": 7,
+          "name": "Shoes",
+          "unitPrice": 95,
+          "quantity": 3
+        }
+      ],
+      "total": 359,
+      "shipping": {
+        "fullName": "Victor",
+        "address": "19 okundia",
+        "city": "benin city",
+        "phone": "07071520394"
+      },
+      "status": "placed",
+      "createdAt": "2026-10-18T18:43:30.726Z",
+      "id": 3
+    },
+    {
+      "userId": 3,
+      "lines": [
+        {
+          "productId": 1,
+          "name": "Infinix note Edge",
+          "unitPrice": 129.99,
+          "quantity": 2
+        },
+        {
+          "productId": 2,
+          "name": "collage bag",
+          "unitPrice": 89.99,
+          "quantity": 2
+        }
+      ],
+      "total": 439.96,
+      "shipping": {
+        "fullName": "Victor",
+        "address": "19 okundia",
+        "city": "benin city",
+        "phone": "07071520394"
+      },
+      "status": "placed",
+      "createdAt": "2026-10-18T19:48:25.618Z",
+      "id": 4
+    },
+    {
+      "userId": 3,
+      "lines": [
+        {
+          "productId": 2,
+          "name": "collage bag",
+          "unitPrice": 89.99,
+          "quantity": 1
+        }
+      ],
+      "total": 89.99,
+      "shipping": {
+        "fullName": "Victor",
+        "address": "19 okundia",
+        "city": "benin city",
+        "phone": "07071520394"
+      },
+      "status": "placed",
+      "createdAt": "2026-10-18T20:04:12.051Z",
+      "id": 5
+    },
+    {
+      "userId": 3,
+      "lines": [
+        {
+          "productId": 2,
+          "name": "collage bag",
+          "unitPrice": 89.99,
+          "quantity": 1
+        },
+        {
+          "productId": 3,
+          "name": "Portable Bluetooth Speaker",
+          "unitPrice": 49.99,
+          "quantity": 1
+        }
+      ],
+      "total": 139.98,
+      "shipping": {
+        "fullName": "Victor",
+        "address": "19 okundia",
+        "city": "benin city",
+        "phone": "07071520394"
+      },
+      "status": "placed",
+      "createdAt": "2026-10-19T11:18:58.068Z",
+      "id": 6
+    },
+    {
+      "userId": 3,
+      "lines": [
+        {
+          "productId": 2,
+          "name": "collage bag",
+          "unitPrice": 89.99,
+          "quantity": 1
+        },
+        {
+          "productId": 1,
+          "name": "Infinix note Edge",
+          "unitPrice": 129.99,
+          "quantity": 1
+        },
+        {
+          "productId": 3,
+          "name": "Portable Bluetooth Speaker",
+          "unitPrice": 49.99,
+          "quantity": 1
+        }
+      ],
+      "total": 269.97,
+      "shipping": {
+        "fullName": "Victor",
+        "address": "19 okundia",
+        "city": "benin city",
+        "phone": "07071520394"
+      },
+      "status": "placed",
+      "createdAt": "2026-10-25T08:11:16.754Z",
+      "id": 7
+    }
+  ]
+}
